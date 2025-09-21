@@ -15,7 +15,7 @@ fetch('data.json')
 
     // Add "of 100" after the average score
     const of100Span = document.createElement('span');
-    of100Span.textContent = ' of 100';
+    of100Span.textContent = 'of 100';
     totalElem.appendChild(of100Span);
     
     // Render summary items
